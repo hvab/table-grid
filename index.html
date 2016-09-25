@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Table Grid</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="table-grid.css">
+    <link rel="stylesheet" href="grid-example.css">
+  </head>
+  <body class="page">
+
+    <h1 class="page__title">Table Grid</h1>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+      <div class="grid__cell grid__cell_size_1">1</div>
+    </div>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_2">2</div>
+      <div class="grid__cell grid__cell_size_2">2</div>
+      <div class="grid__cell grid__cell_size_2">2</div>
+      <div class="grid__cell grid__cell_size_2">2</div>
+      <div class="grid__cell grid__cell_size_2">2</div>
+      <div class="grid__cell grid__cell_size_2">2</div>
+    </div>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_3">3</div>
+      <div class="grid__cell grid__cell_size_3">3</div>
+      <div class="grid__cell grid__cell_size_3">3</div>
+      <div class="grid__cell grid__cell_size_3">3</div>
+    </div>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_4">4</div>
+      <div class="grid__cell grid__cell_size_4">4</div>
+      <div class="grid__cell grid__cell_size_4">4</div>
+    </div>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_5">5</div>
+      <div class="grid__cell grid__cell_size_7">7</div>
+    </div>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_6">6</div>
+      <div class="grid__cell grid__cell_size_6">6</div>
+    </div>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_8">8</div>
+      <div class="grid__cell grid__cell_size_4">4</div>
+    </div>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_12">12</div>
+    </div>
+
+
+    <h2 id="table-layout">Table-layout: fixed</h2>
+
+    <div class="grid grid-example">
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+    </div>
+    <div class="grid grid-example">
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+    </div>
+    <div class="grid grid-example">
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+    </div>
+    <div class="grid grid-example">
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+    </div>
+    <div class="grid grid-example">
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+    </div>
+    <div class="grid grid-example">
+      <div class="grid__cell">Cell</div>
+    </div>
+
+
+    <h2 id="nested">Nested</h2>
+
+    <div class="grid grid-example">
+      <div class="grid__cell grid__cell_size_8">
+        8
+        <div class="grid grid-example">
+          <div class="grid__cell">Cell</div>
+          <div class="grid__cell">Cell</div>
+        </div>
+      </div>
+      <div class="grid__cell grid__cell_size_4">4</div>
+    </div>
+
+
+    <h2 id="grids-with-gutters">Grids with gutters</h2>
+
+    <div class="grid grid_padded grid-example">
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+    </div>
+    <div class="grid grid_padded grid-example">
+      <div class="grid__cell">Cell</div>
+      <div class="grid__cell">Cell</div>
+    </div>
+    <div class="grid grid_padded grid-example">
+      <div class="grid__cell grid__cell_size_8">8</div>
+      <div class="grid__cell grid__cell_size_4">4</div>
+    </div>
+
+
+    <h2 id="vertically-center-content">Vertically center content</h2>
+
+    <p>Requires the use of <code class="highlighter-rouge">inline</code>, <code class="highlighter-rouge">inline-block</code>, or <code class="highlighter-rouge">table</code> based elements within a cell.</p>
+
+    <div class="grid grid_middle grid-example">
+      <div class="grid__cell">
+        Free-form text wraps while remaining vertically centered.
+      </div>
+      <div class="grid__cell">
+        Nested cell center, too.
+          <div class="grid grid-example">
+            <div class="grid__cell">Cell</div>
+            <div class="grid__cell">Cell</div>
+          </div>
+      </div>
+      <div class="grid__cell">
+        <div class="grid-example__inline-block">A `div` with `inline-block` works great, too.</div>
+      </div>
+    </div>
+
+
+    <h2 id="reverse-cell-sorting">Reverse cell sorting</h2>
+
+    <div class="grid grid_reverse grid-example">
+      <div class="grid__cell">Cell 1</div>
+      <div class="grid__cell">Cell 2</div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.page {
+  padding-bottom: 300px;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  background: #fff url(cat.svg) bottom no-repeat;
+}
+
+.page__title {
+  text-align: center;
+}
+
+
+.grid-example {
+  margin-bottom: 1rem;
+}
+
+
+.grid-example .grid__cell {
+  font-size: 1rem;
+  line-height: 3;
+  text-align: center;
+
+  background-color: rgba(64,224,208, 0.5);
+}
+
+
+.grid-example .grid__cell:nth-child(odd) {
+  background-color: rgba(64,224,208, 0.25);
+}
+
+
+.grid-example .grid-example {
+  margin-bottom: 0;
+}
+
+
+.grid-example__inline-block {
+  display: inline-block;
+}
+
+
+.grid-example.grid_middle {
+  height: 10rem;
+}
