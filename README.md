@@ -31,7 +31,7 @@ This is simple, responsive CSS grid system based on `display: table`. The typica
 
 Fixed table layouts render equal-width columns when no other width is set.
 
-See [demo](#).
+See [demo](https://hobcode.github.io/table-grid/).
 
 ### Sizes
 
